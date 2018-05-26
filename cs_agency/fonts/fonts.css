@@ -1,0 +1,48 @@
+/* fonts */
+@font-face {
+    
+    font-family: 'OpenSans-Regular'; 
+    
+    src: url("OpenSans-Regular.ttf") format("truetype");
+    
+}
+
+@font-face {
+    
+    font-family: 'MyriadPro-Regular'; 
+    
+    src: url("MyriadPro-Regular.ttf") format("truetype");
+    
+}
+
+@font-face {
+    
+    font-family: 'Gotham Bold'; 
+    
+    src: url("GothamBold.ttf") format("truetype");
+    
+}
+
+@font-face {
+    
+    font-family: 'Gotham Medium'; 
+    
+    src: url("GothamMedium.ttf") format("truetype");
+    
+}
+
+@font-face {
+    
+    font-family: 'Gotham Book'; 
+    
+    src: url("GothamBook.ttf") format("truetype");
+    
+}
+
+@font-face {
+    
+    font-family: 'RobotoCondensed-Bold'; 
+    
+    src: url("RobotoCondensed-Bold.ttf") format("truetype");
+    
+}/* end fonts */
