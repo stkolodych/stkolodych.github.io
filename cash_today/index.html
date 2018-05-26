@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- STYLES -->  
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+  </head>
+  <body>
+
+     
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <div class="logo-wrap">
+                <a href="#"><img src="img/logo.png" alt=""></a>
+            </div>
+            
+            <div class="menu-wrap">
+               
+                <div class="number-head">
+                    <p>0 (800) 210-365</p>
+                    <p>звонок бесплатный</p>
+                </div>
+               
+                <a href="#" class="button">
+                    <img src="img/come-in.png" alt="">Войти
+                </a>  
+                
+                <i class="fas fa-users user"></i>
+                
+                <div class="menu">
+                    <div class="menu__icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+  
+                    <div class="menu__links">
+                        <a class="menu__links-item" href="#">Как получить кредит</a>
+                        <a class="menu__links-item" href="#">Как вернуть кредит</a>
+                        <a class="menu__links-item" href="#">Вопросы и ответы</a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </header> 
+     
+      
+    <!-- MAIN -->
+    <section class="main" id="main">
+        <div class="container">
+            <div class="credit-online">
+                <h2>Онлайн кредит на карту <span>за 5 минут!</span></h2>
+                
+                  <div class="calc">
+                   
+                   
+                    <div class="calc-main">
+                        <div class="credit-value">
+                            <p>Сколько Вы хотите получить:</p>
+                            <div class="calc-wrap">
+                                <div class="range-1">
+                                    <input type="range" min="500" max="10000" step="100" value="7000" id="r1">
+                                    <p id="r1-min">500 грн</p>
+                                    <p id="r1-max">10000 грн</p>      
+                                </div>
+                                <input type="text" id="input-1" value="7000">    
+                                <p class="grn">грн</p>
+                            </div>
+                        </div>
+                        
+                        <div class="credit-duration">
+                            <p>На какой срок:</p>
+                            <div class="calc-wrap">
+                                <div class="range-2">
+                                    <input type="range" min="7" max="30" step="1" value="11" id="r2">
+                                    <p id="r2-min">7 дней</p>
+                                    <p id="r2-max">30 дней</p>    
+                                </div>
+                                <input type="text" value="11" id="input-2">    
+                                <p class="grn">дней</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="calc-info">
+                        <div class="info-1">
+                            <p class="title">Информация о кредите:</p>
+                            <div class="info-1-wrap">
+                                <div class="info-line">
+                                    <p>Вы берете:</p>
+                                    <p class="bold" id="get-cash">7000 грн</p>
+                                </div>
+                                <div class="info-line">
+                                    <p>Дата возврата:</p>
+                                    <p class="bold" id="return-data">01.01.2017</p>
+                                </div>
+                                <div class="info-line">
+                                    <p>К возврату:</p>
+                                    <p class="bold" id="return-cash">7780 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info-2">
+                            <p class="title">Стоимость продления:</p>
+                            <div class="info-2-wrap">
+                                <div class="info-line">
+                                    <p>7 дней</p>
+                                    <p class="bold blue">223 грн</p>
+                                </div>
+                                <div class="info-line">
+                                    <p>15 дней</p>
+                                    <p class="bold blue">581 грн</p>
+                                </div>
+                                <div class="info-line">
+                                    <p>30 дней</p>
+                                    <p class="bold blue">983 грн</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="button">оформить кредит</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>   
+      
+     
+    <!-- CONDITIONS -->     
+    <section class="conditions" id="conditions">
+        <div class="container">
+            <h2 class="title">Кто может получить кредит?</h2>
+            <p class="under-title">Вы можете получить кредит уже через 5 минут, если</p>
+            <div class="cond-items">
+                <div class="cond-item">
+                    <div class="img-wrap">
+                        <img src="img/18.png" alt="">
+                    </div>
+                    <p>Вам исполнилось 18 лет</p>
+                </div>
+                <div class="cond-item">
+                    <div class="img-wrap">
+                        <img src="img/pasport.png" alt="">
+                    </div>
+                    <p>Вы гражданин Украин</p>
+                </div>
+                <div class="cond-item">
+                    <div class="img-wrap">
+                        <img src="img/card.png" alt="">
+                    </div>
+                    <p>У вас есть банковская карта</p>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+      
+    <!-- TAKE-CREDIT --> 
+    <section class="take-credit" id="take-credit">
+        <div class="container">
+           
+            <h2 class="title">Взять кредит в Cashtoday?</h2>
+            <p class="under-title">Мы создали лучший сервис для Вас</p>
+            
+            <div class="clients">
+                <div class="new-clients">
+                <h3 class="title">Новый клиент</h3>
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>    
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>
+                </div>
+                
+                <div class="old-clients">
+                <h3 class="title">Постоянный клиент</h3>
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>  
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>
+                <div class="advantage">
+                   <img src="img/feature.png" alt=""> 
+                   <p>Длинное преимущество 1</p>
+                </div>  
+                </div>
+            </div>
+            
+            <a href="#" class="button">получить сейчас</a>
+            
+        </div>
+    </section>
+       
+          
+    <!-- CREDIT-COND -->
+    <section class="credit-cond" id="credit-cond">
+        <div class="container">
+            
+            <h2 class="title">Как получить кредит?</h2>
+            
+            <div class="credit-plan">
+                <div class="plan-item">
+                    <div class="img-wrap">
+                        <img src="img/men.png" alt="">
+                    </div>
+                    <h3>Все онлайн</h3>
+                    <p>Не нужно отходить от компьютера и посещать банк</p>
+                </div>
+                <div class="plan-next">
+                    <img src="img/cr-plan-next.png" alt="">
+                </div>
+                <div class="plan-item">
+                    <div class="img-wrap">
+                        <img src="img/credit_card.png" alt="">
+                    </div>
+                    <h3>Кредит за 5 минут</h3>
+                    <p>Решение принимается за 5 минут и деньги сразу поступают на Вашу карту</p>
+                </div>
+                <div class="plan-next">
+                    <img src="img/cr-plan-next.png" alt="">
+                </div>
+                <div class="plan-item">
+                    <div class="img-wrap">
+                        <img src="img/document.png" alt="">
+                    </div>
+                    <h3>Только паспорт и код</h3>
+                    <p>Не нужно приносить и заполнять целую гору документов</p>
+                </div>
+            </div>
+            
+            <div class="fast-text">
+                <span>Просто попробуйте один раз — и лично убедитесь,</span>
+                <span class="it">насколько это быстро и удобно!</span>
+            </div>
+            
+            <a href="#" class="button">получить сейчас</a>
+            
+        </div>
+    </section>    
+               
+                         
+    <!-- VIDEO -->            
+    <section class="video" id="video">
+       
+        <video width="100%" height="auto">
+           <source src="video/nature.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        </video>
+        
+        
+        <section class="video-bg">
+            <div class="overlay">
+               <div class="img-wrap">
+                   <img src="img/play.png" alt="" id="play">
+               </div>
+            <span>Посмотрите это короткое видео о том, как работает сервис Cash today</span>    
+            </div>
+        </section>
+        
+    </section>  
+                                  
+                      
+    <!-- SUBSCRIBE -->                     
+    <section class="subscribe" id="subscribe">
+        <div class="wrap">
+          <div class="container">      
+           <h2>Подписаться на рассылку</h2>
+            <form action="">
+                
+                <input type="text" placeholder="Укажите email">
+                <input type="submit" value="">
+            </form>
+            <p>Никакого спама. Только актуальные новости и предложения.</p>
+        </div>
+        </div>
+    </section>                        
+                               
+                                  
+    <!-- FOOTER -->                                 
+    <section class="footer" id="footer">
+        <div class="container">
+            
+            <div class="links">
+                <div class="link-sect">
+                    <h3>КАК ЭТО РАБОТАЕТ</h3>
+                    <a href="#">Как взять кредит</a>
+                    <a href="#">Бонусная программа</a>
+                    <a href="#">Блог</a>
+                    <a href="#">О нас</a>
+                </div>
+                <div class="link-sect">
+                    <h3>КАК ВЕРНУТЬ КРЕДИТ</h3>
+                    <a href="#">В личном кабинете</a>
+                    <a href="#">В терминале</a>
+                    <a href="#">В кассе банка</a>
+                    <a href="#">Продлить кредит</a>
+                </div>
+                <div class="link-sect">
+                    <h3>О НАС</h3>
+                    <a href="#">О сервисе Credit365</a>
+                    <a href="#">Контакты и реквизиты</a>
+                    <a href="#">Документы</a>
+                    <a href="#">Карта сайта</a>
+                </div>
+            </div>
+            
+            <div class="numbers">
+                <div class="number-item">
+                    <p class="bold">0 800 214 111</p>
+                    <p class="free-call">Звонок бесплатный</p>
+                </div>
+                <div class="number-item">
+                    <img src="img/life.png" alt="">
+                    <p>073 369 41 11</p>
+                </div>
+                <div class="number-item">
+                    <img src="img/kievstar.png" alt="">
+                    <p>067 369 41 11</p>
+                </div>
+                <div class="number-item">
+                    <img src="img/vodafone.png" alt="">
+                    <p>050 369 41 11</p>
+                </div>
+            </div>
+            
+            <p class="copyright">&copy; 2013 - 2017 Все права защищены! Торговая марка Credit365. Финансовый оператор ООО "АИА ФИНАНС ГРУП". Лицензия выдана Национальной комиссией осуществляющей государственное регулирование в сфере рынков финансовых услуг 18.05.2017 (бессрочная).</p>
+        </div>
+           
+        <div class="footer-social">
+            <div class="container">
+                <a href="#" class="foot-logo">
+                    <img src="img/logo-footer.png" alt="">
+                </a>
+                <a href="#" class="lock">
+                    <img src="img/lock.jpg" alt="">
+                </a>
+                <a href="#" class="verified">
+                    <img src="img/verified.jpg" alt="">
+                </a>
+                <div class="social">
+                    <a href="#" class="social-tube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-fb"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-google"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+            </div>
+        </div>      
+    </section>   
+                                          
+                                                                                                            
+    <!-- INFORMATION -->                                       
+    <section class="information" id="information">
+        <div class="container">
+            <div class="info-block">
+                <h3>Контактная информация</h3>
+                <p>ООО “АИА ФИНАНС ГРУПП”. Местонахождение: ул. Михайловская 15/1 лит. Б, Киев, 01001.. Свидетельство о регистрации финансового учреждения ФК №877. Пример расчета годовой процентной ставки: сумма кредита – 1000 грн; срок кредита - 7 дней; общая сумма (основная сумма и проценты), которую необходимо будет оплатить – 1069 грн. APR - 357,7%.</p>
+            </div>
+            
+            <div class="info-block">
+                <h3>Финансовая ответственность</h3>
+                <p>В случае невыполнения заемщиком своих обязательств, может быть начат процесс взыскания долга, и право взыскания может быть передано третьим лицам, что негативно отразится на кредитной истории заемщика и возможно, на его кредитном рейтинге. В случае просрочки платежа или непродления заемщиком срока предоставления кредита, со дня, следующего за днем окончания срока возврата кредита, проценты за пользование кредитом насчитываются в размере 1,5% от общей суммы кредита, до момента фактического возврата кредита.</p>
+            </div>
+            
+            <div class="info-block">
+                <h3>Продление срока пользования кредитом</h3>
+                <p>Заёмщик может неограниченное количество раз продлевать кредит (устанавливать новую дату возврата кредита), оплатив комиссию в установленном Офертой размере.</p>
+            </div>
+        </div>
+    </section>                                          
+                                                                                                                                                
+                                                  
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
